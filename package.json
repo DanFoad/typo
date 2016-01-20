@@ -1,0 +1,36 @@
+{
+  "name": "typo",
+  "version": "1.0.0",
+  "description": "Flat UI framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanFoad/typo.git"
+  },
+  "keywords": [
+    "css",
+    "css3",
+    "flat",
+    "flexbox",
+    "framework",
+    "front-end",
+    "html",
+    "html5",
+    "mobile",
+    "responsive",
+    "scss"
+  ],
+  "author": "Dan Foad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DanFoad/typo/issues"
+  },
+  "homepage": "https://github.com/DanFoad/typo#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.1.1"
+  }
+}
