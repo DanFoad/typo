@@ -1,0 +1,19 @@
+.button {
+    height: 4.0rem;
+    padding: 0 4.0rem;
+    line-height: 4.0rem;
+    border-radius: 4px;
+    background-color: $color-primary-2;
+    display: inline-block;
+    text-decoration: none;
+    color: $color-white;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: all 0.2s ease-in-out;
+}
+.button:hover {
+    background: darken($color-primary-1, 20%);
+    color: $color-background-light;
+}

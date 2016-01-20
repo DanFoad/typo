@@ -1,0 +1,98 @@
+//---- RESET ----//
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*::after, *::before {
+    box-sizing: inherit;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6em;
+    font-family: "Roboto", sans-serif;
+    color: $color-text-dark;
+    background-color: $color-background-light;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+//---- GENERAL ----//
+.container {
+    padding: 7.5rem 2rem;
+    max-width: 80.0rem;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+}
+.header {
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: $color-white;
+}
+.header .title {
+    font-size: 5.6rem;
+}
+.header .description {
+    letter-spacing: 0.5px;
+    margin: 2rem 0;
+}
+.header .button {
+    margin: 2rem 0 4rem;
+}
+
+//---- NAVIGATION ----//
+.topnav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5.2rem;
+    border-bottom: 1px solid $color-primary-1;
+    background-color: $color-background-light;
+}
+.topnav .container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.topnav__title {
+    display: inline-block;
+    text-decoration: none;
+    color: $color-text-dark;
+}
+.topnav__title .title {
+    font-size: 1.6rem;
+    line-height: 5.2rem;
+    display: inline;
+}
+.nav {
+    list-style: none;
+    display: inline-block;
+}
+.nav__right {
+    text-align: right;
+}
+.nav__item {
+    display: inline-block;
+    height: 5.2rem;
+    line-height: 5.2rem;
+    padding: 0 2rem;
+}
+.nav__link {
+    color: $color-primary-0;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+.nav__link:hover {
+    color: $color-primary-1;
+}
